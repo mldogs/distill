@@ -1,0 +1,8 @@
+# Celery task queue
+celery[redis]>=5.3.0
+
+# Redis client
+redis>=5.0.0
+
+# Monitoring dashboard
+flower>=2.0.0

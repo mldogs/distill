@@ -1,0 +1,7 @@
+channels:
+  - name: refat_talks
+    username: "@nobilix"
+    # limit: 100
+    since: "2026-01-01"
+    until: "2026-01-10"
+

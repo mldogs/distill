@@ -1,0 +1,124 @@
+# AI Telegram Channels - 100 каналов
+# Формат: один username на строку (для bulk import)
+
+# === NEWS & ANALYTICS ===
+@hiaimedia
+@ai_machinelearning_big_data
+@chatgpt_russia
+@neirodvizh
+@ainewsdaily
+@theaitimes
+@aiexplained
+@vistehno
+@aiinsider
+@futureofai
+
+# === EXPERT CHANNELS ===
+@gorfrend
+@rybolos_channel
+@senior_augur
+@toBeAnMLspecialist
+@kaborot
+@llmpapers
+@airesearchlab
+@deeplearninghero
+
+# === PRACTICAL & PROMPTS ===
+@neuro_simple
+@voiclab
+@stablediffusionai
+@midjourneypromt
+@chatgptprompts
+@aipromptshub
+@bestaitools
+@aitoolsweekly
+@gpttips
+@claudetips
+
+# === DATA SCIENCE ===
+@kdnuggets
+@datascienceinfo
+@datasciencemachinelearning
+@cloudyml
+@ods_ai
+@mlforeveryone
+@dataanalysis
+@100daysofml
+@dataflair
+@pythonfordatascience
+
+# === DEEP LEARNING ===
+@DeepLearning_ai
+@DeepLearningAIExperts
+@DeepLearningGroup
+@DeepLearningML
+@neuralnetworks
+@tf2keras
+@pytorch_community
+@AI_DeepLearning
+
+# === NLP & LLM ===
+@NLPExperts
+@llmnews
+@gpt4channel
+@text_mining
+@transformersdaily
+@anthropicai
+@openaiupdates
+@gaborgenmi
+
+# === COMPUTER VISION ===
+@cvision
+@digital_image_processing
+@aiartgeneration
+@dallemidjourney
+@sdtips
+@aivideogen
+@soraupdates
+
+# === PYTHON & CODING ===
+@ai_python
+@pythonicAI
+@GoogleColabGroup
+@pytens
+@aicodeexamples
+@mlcode
+@githubai
+@jupyternotebooks
+
+# === RESEARCH & PAPERS ===
+@ArtificialIntelligenceArticles
+@ailib
+@Machine_learn
+@ml_in_science
+@arxiv_ai
+@airesearchpapers
+@neuripsupdates
+@icmlpapers
+
+# === BUSINESS & STARTUPS ===
+@venture_tg
+@startupsi
+@aistartups
+@aibusiness
+@aiinvestment
+@techfounders
+
+# === ROBOTICS ===
+@automationRobotics
+@airobotics
+@autonomoussystems
+@HomeAI
+@smarthomeai
+
+# === SPECIALIZED ===
+@Recommender_System
+@AI_Events
+@aijobs
+@aicourses
+@aihealthcare
+@aifinance
+@aigaming
+@aimusic
+@aivideotools
+@aiagents

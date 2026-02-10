@@ -1,0 +1,30 @@
+# Environment
+.env
+*.session
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+*.egg-info/
+
+# Data
+collector/data/
+data/raw/
+*.db
+*.sqlite
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+.venv-convert/
+data/tdata/
+.claude
+.claude/settings.local.json

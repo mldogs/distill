@@ -1,0 +1,75 @@
+# =============================================================================
+# Docker Compose Override for Development
+# =============================================================================
+# This file is automatically loaded with docker-compose.yml
+# Features: hot-reload, volume mounts, debug logging
+#
+# For production, use:
+#   docker-compose -f docker-compose.yml up -d
+# =============================================================================
+
+services:
+  # ---------------------------------------------------------------------------
+  # API - Development mode with hot-reload
+  # ---------------------------------------------------------------------------
+  api:
+    build:
+      target: runtime  # Use runtime stage
+    volumes:
+      # Mount source code for hot-reload
+      - ./api:/app/api:ro
+      - ./storage:/app/storage:ro
+      - ./ranker:/app/ranker:ro
+      - ./collector:/app/collector:ro
+      - ./jobs:/app/jobs:ro
+      - ./core:/app/core:ro
+      - ./scripts:/app/scripts:ro
+      - ./tests:/app/tests:ro
+      - ./.env:/app/.env:ro
+    environment:
+      # Enable reload
+      API_RELOAD: "true"
+      APP_ENV: dev
+      # CORS - allow all origins in dev
+      CORS_ORIGINS: "*"
+      CORS_ALLOW_CREDENTIALS: "false"
+    command: ["sh", "-c", "cd /app/storage && alembic upgrade head && uvicorn api.main:app --host 0.0.0.0 --port 8000 --reload"]
+    # Enable healthcheck for web dependency
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health', timeout=5)"]
+      interval: 10s
+      timeout: 5s
+      start_period: 15s
+      retries: 5
+
+  # ---------------------------------------------------------------------------
+  # Web - Development mode
+  # ---------------------------------------------------------------------------
+  web:
+    # Run web container in dev mode
+
+  # ---------------------------------------------------------------------------
+  # Celery Worker - Debug logging
+  # ---------------------------------------------------------------------------
+  celery-worker:
+    volumes:
+      - ./collector:/app/collector:ro
+      - ./storage:/app/storage:ro
+      - ./ranker:/app/ranker:ro
+      - ./novelty:/app/novelty:ro
+      - ./jobs:/app/jobs:ro
+      - ./core:/app/core:ro
+      - ./.env:/app/.env:ro
+    environment:
+      CELERY_LOG_LEVEL: debug
+      CELERY_CONCURRENCY: 2
+
+  # ---------------------------------------------------------------------------
+  # Celery Beat - Debug logging
+  # ---------------------------------------------------------------------------
+  celery-beat:
+    volumes:
+      - ./jobs:/app/jobs:ro
+      - ./.env:/app/.env:ro
+    environment:
+      CELERY_LOG_LEVEL: debug

@@ -1,0 +1,284 @@
+@import "tailwindcss";
+
+/* ═══════════════════════════════════════════════════════════════
+   TERMINAL THEME (Claude Code style)
+   ═══════════════════════════════════════════════════════════════ */
+
+:root {
+  /* Background layers */
+  --background: #1a1a1a;
+  --background-secondary: #242424;
+  --surface: #2a2a2a;
+  --card: #2d2d2d;
+
+  /* Text */
+  --foreground: #e4e4e4;
+  --foreground-secondary: #a0a0a0;
+  --muted: #666666;
+
+  /* Accent - Orange (Claude style) */
+  --primary: #d97706;
+  --primary-hover: #f59e0b;
+  --primary-muted: rgba(217, 119, 6, 0.15);
+
+  /* Semantic */
+  --success: #22c55e;
+  --warning: #eab308;
+  --danger: #ef4444;
+  --info: #3b82f6;
+
+  /* Borders */
+  --border: #333333;
+  --border-hover: #444444;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-muted: var(--muted);
+  --font-sans: var(--font-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-feature-settings: "liga" 1, "calt" 1;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--muted);
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   TERMINAL COMPONENTS
+   ═══════════════════════════════════════════════════════════════ */
+
+/* Card */
+.terminal-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+.terminal-card:hover {
+  border-color: var(--border-hover);
+}
+
+/* Button */
+.terminal-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--foreground);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.terminal-btn:hover:not(:disabled) {
+  background: var(--background-secondary);
+  border-color: var(--border-hover);
+}
+
+.terminal-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.terminal-btn-primary {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: white;
+}
+
+.terminal-btn-primary:hover:not(:disabled) {
+  background: var(--primary-hover);
+  border-color: var(--primary-hover);
+}
+
+.terminal-btn-ghost {
+  background: transparent;
+  border-color: transparent;
+}
+
+.terminal-btn-ghost:hover:not(:disabled) {
+  background: var(--primary-muted);
+}
+
+/* Input */
+.terminal-input {
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 14px;
+  color: var(--foreground);
+  background: var(--background);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.15s ease;
+}
+
+.terminal-input:focus {
+  border-color: var(--primary);
+}
+
+.terminal-input::placeholder {
+  color: var(--muted);
+}
+
+/* Select */
+.terminal-select {
+  padding: 8px 12px;
+  font-size: 14px;
+  color: var(--foreground);
+  background: var(--background);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  outline: none;
+  cursor: pointer;
+}
+
+.terminal-select:focus {
+  border-color: var(--primary);
+}
+
+/* Badge */
+.terminal-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px;
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-radius: 4px;
+  background: var(--primary-muted);
+  color: var(--primary);
+}
+
+.terminal-badge-success {
+  background: rgba(34, 197, 94, 0.15);
+  color: var(--success);
+}
+
+.terminal-badge-warning {
+  background: rgba(234, 179, 8, 0.15);
+  color: var(--warning);
+}
+
+.terminal-badge-danger {
+  background: rgba(239, 68, 68, 0.15);
+  color: var(--danger);
+}
+
+/* Divider */
+.terminal-divider {
+  height: 1px;
+  background: var(--border);
+}
+
+/* Blinking cursor */
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+.cursor-blink::after {
+  content: "▋";
+  animation: blink 1s step-end infinite;
+  color: var(--primary);
+  margin-left: 2px;
+}
+
+/* Status dot */
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--muted);
+}
+
+.status-dot-success { background: var(--success); }
+.status-dot-warning { background: var(--warning); }
+.status-dot-danger { background: var(--danger); }
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.status-pulse {
+  animation: pulse 2s infinite;
+}
+
+/* Keyboard shortcut */
+kbd {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 20px;
+  padding: 2px 6px;
+  font-size: 11px;
+  color: var(--foreground-secondary);
+  background: var(--background);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+}
+
+/* Progress bar */
+.terminal-progress {
+  height: 4px;
+  background: var(--border);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.terminal-progress-bar {
+  height: 100%;
+  background: var(--primary);
+  transition: width 0.3s ease;
+}
+
+/* Log line styling */
+.log-line {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.log-timestamp {
+  color: var(--muted);
+}
+
+.log-success { color: var(--success); }
+.log-warning { color: var(--warning); }
+.log-error { color: var(--danger); }
+.log-info { color: var(--info); }
+
+/* Prompt */
+.prompt::before {
+  content: "❯ ";
+  color: var(--primary);
+}

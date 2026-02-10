@@ -1,0 +1,51 @@
+# Проверенные русскоязычные AI каналы
+# Все каналы проверены на существование (январь 2026)
+# Формат: один username на строку
+
+# === КРУПНЫЕ (100K+) ===
+@hiaimedia
+@ai_machinelearning_big_data
+@gpt_news
+@gptpublic
+@techno_yandex
+@neuralpony
+@neuraldvig
+
+# === СРЕДНИЕ (50K-100K) ===
+@vistehno
+@ai_newz
+@addmeto
+@seeallochnaya
+@NeuralShit
+
+# === РАСТУЩИЕ (10K-50K) ===
+@cgevent
+@techsparks
+@strangedalle
+@dailyprompts
+@neural_braining
+@llm_under_hood
+@notboring_tech
+@boris_again
+@TochkiNadAI
+@toBeAnMLspecialist
+@nsekt
+
+# === НИШЕВЫЕ (<10K) ===
+@dzenopulse
+@senior_augur
+@startpub
+
+# === ДОПОЛНИТЕЛЬНЫЕ (не проверены детально) ===
+@misha_davai_po_novoi
+@Castalia_Ai
+@iSimplify
+@lama_channel_gpt
+@n_nagornova
+@solokumi
+@midginspiration
+@m_journey
+@neiroarts_and_prompts
+@sebranthink
+@nobilix
+@neuraldeep

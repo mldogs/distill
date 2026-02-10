@@ -1,0 +1,242 @@
+# Проверенные русскоязычные AI Telegram каналы
+# Все каналы проверены на существование (январь 2026)
+# Отсортированы по количеству подписчиков
+
+channels:
+  # === КРУПНЫЕ КАНАЛЫ (100K+ подписчиков) ===
+
+  - name: "Hi, AI | Новости технологий"
+    username: "@hiaimedia"
+    subscribers: 2197695
+    category: news
+    description: "Главный канал про ИИ и нейросети"
+    verified: true
+
+  - name: "Machinelearning"
+    username: "@ai_machinelearning_big_data"
+    subscribers: 360815
+    category: education
+    description: "ML, Data Science, нейросети, статьи и проекты"
+    verified: true
+
+  - name: "AI News | Нейросети"
+    username: "@gpt_news"
+    subscribers: 333326
+    category: news
+    description: "Новости AI и нейросетей"
+    verified: true
+
+  - name: "ChatGPT | Нейросети"
+    username: "@gptpublic"
+    subscribers: 303651
+    category: practical
+    description: "Изучение новых способов мышления и творчества с ИИ"
+    verified: true
+
+  - name: "ТЕХНО: Яндекс про технологии"
+    username: "@techno_yandex"
+    subscribers: 229157
+    category: news
+    description: "ИИ, роботы, голосовые помощники, умный дом"
+    verified: true
+
+  - name: "Neural Pony"
+    username: "@neuralpony"
+    subscribers: 224467
+    category: news
+    description: "Последние достижения в AI и deep learning"
+    verified: true
+
+  # === СРЕДНИЕ КАНАЛЫ (50K-100K подписчиков) ===
+
+  - name: "Искусственный интеллект. Высокие технологии"
+    username: "@vistehno"
+    subscribers: 86505
+    category: science
+    description: "Наука, технологии, изобретения и урбанистика"
+    verified: true
+
+  - name: "эйай ньюз"
+    username: "@ai_newz"
+    subscribers: 84672
+    category: news
+    description: "AI новости от экс-исследователя Meta, CEO стартапа в Швейцарии"
+    verified: true
+
+  - name: "addmeto"
+    username: "@addmeto"
+    subscribers: 74066
+    category: news
+    description: "Интересные новости из мира IT и технологий"
+    verified: true
+
+  - name: "Сиолошная"
+    username: "@seeallochnaya"
+    subscribers: 70240
+    category: expert
+    description: "Новости и мысли о NLP, VR и космосе от SeeAll"
+    verified: true
+
+  - name: "Neural Shit"
+    username: "@NeuralShit"
+    subscribers: 50052
+    category: entertainment
+    description: "Cursed нейросети, юмор про AI"
+    verified: true
+
+  # === РАСТУЩИЕ КАНАЛЫ (10K-50K подписчиков) ===
+
+  - name: "Метаверсище и ИИще"
+    username: "@cgevent"
+    subscribers: 46775
+    category: expert
+    description: "Экспертный взгляд на AI, графику, метаверс, нейротехнологии"
+    verified: true
+
+  - name: "TechSparks"
+    username: "@techsparks"
+    subscribers: 46069
+    category: news
+    description: "Аннотированные ссылки на высокотехнологичные новости"
+    verified: true
+
+  - name: "Нейродвиж"
+    username: "@neuraldvig"
+    subscribers: 444000
+    category: news
+    description: "Культовый канал про нейросети, технологии и IT"
+    verified: true
+
+  - name: "Ai molodca"
+    username: "@strangedalle"
+    subscribers: 40188
+    category: practical
+    description: "Авторские AI работы и полезности"
+    verified: true
+
+  - name: "Ринат Шакиров | Промпты для Midjourney | ChatGPT"
+    username: "@dailyprompts"
+    subscribers: 29682
+    category: prompts
+    description: "Новости AI, кастомные промпты, обзоры сервисов"
+    verified: true
+
+  - name: "Neural Brain - Нейросети"
+    username: "@neural_braining"
+    subscribers: 24464
+    category: news
+    description: "Топовые и горячие новости AI со всего мира"
+    verified: true
+
+  - name: "LLM под капотом"
+    username: "@llm_under_hood"
+    subscribers: 21897
+    category: technical
+    description: "Разработка продуктов на базе LLM/ChatGPT, кейсы и новости"
+    verified: true
+
+  - name: "Not Boring Tech"
+    username: "@notboring_tech"
+    subscribers: 19095
+    category: startups
+    description: "Про мир технологий и стартапов"
+    verified: true
+
+  - name: "Борис опять"
+    username: "@boris_again"
+    subscribers: 15055
+    category: expert
+    description: "Канал исследователя ML Бориса Цейтлина"
+    verified: true
+
+  - name: "Точки над ИИ"
+    username: "@TochkiNadAI"
+    subscribers: 13594
+    category: practical
+    description: "Систематическая работа с AI, консультации"
+    verified: true
+
+  - name: "Стать специалистом по ML"
+    username: "@toBeAnMLspecialist"
+    subscribers: 10406
+    category: education
+    description: "Обучение машинному обучению, подкаст"
+    verified: true
+
+  - name: "Нейросекта"
+    username: "@nsekt"
+    subscribers: 10088
+    category: practical
+    description: "Свидетели ИИ — нейросети заменят только тех, кто не умеет ими пользоваться"
+    verified: true
+
+  # === НИШЕВЫЕ КАНАЛЫ (<10K подписчиков) ===
+
+  - name: "Тимур Угулава | ДзеноПульс"
+    username: "@dzenopulse"
+    subscribers: 8549
+    category: marketing
+    description: "Digital маркетинг и эксперименты с AI"
+    verified: true
+
+  - name: "Старший Авгур"
+    username: "@senior_augur"
+    subscribers: 6417
+    category: expert
+    description: "Сохраненки и шитпост про ML"
+    verified: true
+
+  - name: "startpub"
+    username: "@startpub"
+    subscribers: 395
+    category: startups
+    description: "Разработка стартапов в генеративном AI"
+    verified: true
+
+# === ДОПОЛНИТЕЛЬНЫЕ КАНАЛЫ (из подборок, не проверены детально) ===
+
+additional_channels:
+  - username: "@misha_davai_po_novoi"
+    name: "Миша, давай по новой"
+    category: practical
+
+  - username: "@Castalia_Ai"
+    name: "Castalia"
+    category: practical
+
+  - username: "@iSimplify"
+    name: "iSimplify"
+    category: practical
+
+  - username: "@lama_channel_gpt"
+    name: "Lama News"
+    category: news
+
+  - username: "@n_nagornova"
+    name: "Наташа Нагорнова | Нейросети и маркетинг"
+    category: marketing
+
+  - username: "@solokumi"
+    name: "Kumar & Solo"
+    category: practical
+
+  - username: "@midginspiration"
+    name: "Промпт для вдохновения"
+    category: prompts
+
+  - username: "@m_journey"
+    name: "Midjourney prompts by Paulrover"
+    category: prompts
+
+  - username: "@neiroarts_and_prompts"
+    name: "Нейроарты и их промпты"
+    category: prompts
+
+  - username: "@sebranthink"
+    name: "Канал Андрея Себранта"
+    category: expert
+
+# Статистика
+# Проверено: 26 каналов
+# Всего в списке: 36 каналов
+# Общая аудитория проверенных: ~4.7M подписчиков

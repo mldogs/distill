@@ -1,0 +1,511 @@
+# AI Telegram Channels Collection
+# 100 каналов по тематике AI/ML/Data Science
+# Для загрузки в ultrathink
+
+channels:
+  # === NEWS & ANALYTICS (Новости и аналитика) ===
+  - name: "Hi, AI | Новости технологий"
+    username: "@hiaimedia"
+    category: news
+    lang: ru
+
+  - name: "Machinelearning"
+    username: "@ai_machinelearning_big_data"
+    category: news
+    lang: ru
+
+  - name: "ChatGPT | Нейросети"
+    username: "@chatgpt_russia"
+    category: news
+    lang: ru
+
+  - name: "Нейродвиж"
+    username: "@neirodvizh"
+    category: news
+    lang: ru
+
+  - name: "AI News Daily"
+    username: "@ainewsdaily"
+    category: news
+    lang: en
+
+  - name: "The AI Times"
+    username: "@theaitimes"
+    category: news
+    lang: en
+
+  - name: "AI Explained"
+    username: "@aiexplained"
+    category: news
+    lang: en
+
+  - name: "Искусственный интеллект. Высокие технологии"
+    username: "@vistehno"
+    category: news
+    lang: ru
+
+  - name: "AI Insider"
+    username: "@aiinsider"
+    category: news
+    lang: en
+
+  - name: "Future of AI"
+    username: "@futureofai"
+    category: news
+    lang: en
+
+  # === EXPERT & AUTHOR CHANNELS (Экспертные) ===
+  - name: "Александр Горный"
+    username: "@gorfrend"
+    category: expert
+    lang: ru
+
+  - name: "Татьяна Шаврина"
+    username: "@rybolos_channel"
+    category: expert
+    lang: ru
+
+  - name: "Старший Авгур"
+    username: "@senior_augur"
+    category: expert
+    lang: ru
+
+  - name: "Стать специалистом по ML"
+    username: "@toBeAnMLspecialist"
+    category: expert
+    lang: ru
+
+  - name: "Andrej Karpathy Fan"
+    username: "@kaborot"
+    category: expert
+    lang: en
+
+  - name: "LLM Papers"
+    username: "@llmpapers"
+    category: expert
+    lang: en
+
+  - name: "AI Research Lab"
+    username: "@airesearchlab"
+    category: expert
+    lang: en
+
+  - name: "Deep Learning Hero"
+    username: "@deeplearninghero"
+    category: expert
+    lang: en
+
+  # === PRACTICAL & PROMPTS (Практика и промпты) ===
+  - name: "Нейросети простым языком"
+    username: "@neuro_simple"
+    category: practical
+    lang: ru
+
+  - name: "Voic Lab"
+    username: "@voiclab"
+    category: practical
+    lang: ru
+
+  - name: "Stable Diffusion"
+    username: "@stablediffusionai"
+    category: practical
+    lang: ru
+
+  - name: "Midjourney Prompts"
+    username: "@midjourneypromt"
+    category: practical
+    lang: ru
+
+  - name: "ChatGPT Prompts"
+    username: "@chatgptprompts"
+    category: practical
+    lang: en
+
+  - name: "AI Prompts Hub"
+    username: "@aipromptshub"
+    category: practical
+    lang: en
+
+  - name: "Best AI Tools"
+    username: "@bestaitools"
+    category: practical
+    lang: en
+
+  - name: "AI Tools Weekly"
+    username: "@aitoolsweekly"
+    category: practical
+    lang: en
+
+  - name: "GPT Tips"
+    username: "@gpttips"
+    category: practical
+    lang: en
+
+  - name: "Claude Tips"
+    username: "@claudetips"
+    category: practical
+    lang: en
+
+  # === DATA SCIENCE & ML (Data Science) ===
+  - name: "KDnuggets"
+    username: "@kdnuggets"
+    category: datascience
+    lang: en
+
+  - name: "Data Science Info"
+    username: "@datascienceinfo"
+    category: datascience
+    lang: en
+
+  - name: "Data Science and ML"
+    username: "@datasciencemachinelearning"
+    category: datascience
+    lang: en
+
+  - name: "CloudyML"
+    username: "@cloudyml"
+    category: datascience
+    lang: en
+
+  - name: "Data Science ODS"
+    username: "@ods_ai"
+    category: datascience
+    lang: ru
+
+  - name: "ML for Everyone"
+    username: "@mlforeveryone"
+    category: datascience
+    lang: en
+
+  - name: "Data Analysis"
+    username: "@dataanalysis"
+    category: datascience
+    lang: en
+
+  - name: "100 Days of ML"
+    username: "@100daysofml"
+    category: datascience
+    lang: en
+
+  - name: "DataFlair"
+    username: "@dataflair"
+    category: datascience
+    lang: en
+
+  - name: "Python for Data Science"
+    username: "@pythonfordatascience"
+    category: datascience
+    lang: en
+
+  # === DEEP LEARNING (Глубокое обучение) ===
+  - name: "Artificial Intelligence && Deep Learning"
+    username: "@DeepLearning_ai"
+    category: deeplearning
+    lang: en
+
+  - name: "Deep Learning Experts"
+    username: "@DeepLearningAIExperts"
+    category: deeplearning
+    lang: en
+
+  - name: "Deep Learning Group"
+    username: "@DeepLearningGroup"
+    category: deeplearning
+    lang: en
+
+  - name: "Deep Learning ML"
+    username: "@DeepLearningML"
+    category: deeplearning
+    lang: en
+
+  - name: "Neural Networks"
+    username: "@neuralnetworks"
+    category: deeplearning
+    lang: en
+
+  - name: "TensorFlow & Keras"
+    username: "@tf2keras"
+    category: deeplearning
+    lang: en
+
+  - name: "PyTorch Community"
+    username: "@pytorch_community"
+    category: deeplearning
+    lang: en
+
+  - name: "AI with Papers"
+    username: "@AI_DeepLearning"
+    category: deeplearning
+    lang: en
+
+  # === NLP & LLM (Обработка языка) ===
+  - name: "NLP Experts"
+    username: "@NLPExperts"
+    category: nlp
+    lang: en
+
+  - name: "LLM News"
+    username: "@llmnews"
+    category: nlp
+    lang: en
+
+  - name: "GPT-4 Channel"
+    username: "@gpt4channel"
+    category: nlp
+    lang: en
+
+  - name: "Text Mining"
+    username: "@text_mining"
+    category: nlp
+    lang: en
+
+  - name: "Transformers Daily"
+    username: "@transformersdaily"
+    category: nlp
+    lang: en
+
+  - name: "Claude AI"
+    username: "@anthropicai"
+    category: nlp
+    lang: en
+
+  - name: "OpenAI Updates"
+    username: "@openaiupdates"
+    category: nlp
+    lang: en
+
+  - name: "Gemini AI"
+    username: "@gaborgenmi"
+    category: nlp
+    lang: en
+
+  # === COMPUTER VISION (Компьютерное зрение) ===
+  - name: "Computer Vision"
+    username: "@cvision"
+    category: cv
+    lang: en
+
+  - name: "Digital Image Processing"
+    username: "@digital_image_processing"
+    category: cv
+    lang: en
+
+  - name: "AI Art Generation"
+    username: "@aiartgeneration"
+    category: cv
+    lang: en
+
+  - name: "DALL-E & Midjourney"
+    username: "@dallemidjourney"
+    category: cv
+    lang: en
+
+  - name: "Stable Diffusion Tips"
+    username: "@sdtips"
+    category: cv
+    lang: en
+
+  - name: "AI Video Generation"
+    username: "@aivideogen"
+    category: cv
+    lang: en
+
+  - name: "Sora Updates"
+    username: "@soraupdates"
+    category: cv
+    lang: en
+
+  # === PYTHON & CODING (Python и код) ===
+  - name: "AI Python"
+    username: "@ai_python"
+    category: coding
+    lang: en
+
+  - name: "Pythonic AI"
+    username: "@pythonicAI"
+    category: coding
+    lang: en
+
+  - name: "Google Colab Tips"
+    username: "@GoogleColabGroup"
+    category: coding
+    lang: en
+
+  - name: "PyTensor"
+    username: "@pytens"
+    category: coding
+    lang: en
+
+  - name: "AI Code Examples"
+    username: "@aicodeexamples"
+    category: coding
+    lang: en
+
+  - name: "ML Code"
+    username: "@mlcode"
+    category: coding
+    lang: en
+
+  - name: "GitHub AI Projects"
+    username: "@githubai"
+    category: coding
+    lang: en
+
+  - name: "Jupyter Notebooks"
+    username: "@jupyternotebooks"
+    category: coding
+    lang: en
+
+  # === RESEARCH & PAPERS (Исследования) ===
+  - name: "AI Articles"
+    username: "@ArtificialIntelligenceArticles"
+    category: research
+    lang: en
+
+  - name: "AI Library"
+    username: "@ailib"
+    category: research
+    lang: en
+
+  - name: "Machine Learn Papers"
+    username: "@Machine_learn"
+    category: research
+    lang: en
+
+  - name: "ML in Science"
+    username: "@ml_in_science"
+    category: research
+    lang: en
+
+  - name: "arXiv AI"
+    username: "@arxiv_ai"
+    category: research
+    lang: en
+
+  - name: "AI Research Papers"
+    username: "@airesearchpapers"
+    category: research
+    lang: en
+
+  - name: "NeurIPS Updates"
+    username: "@neuripsupdates"
+    category: research
+    lang: en
+
+  - name: "ICML Papers"
+    username: "@icmlpapers"
+    category: research
+    lang: en
+
+  # === BUSINESS & STARTUPS (Бизнес и стартапы) ===
+  - name: "Venture Capital"
+    username: "@venture_tg"
+    category: business
+    lang: en
+
+  - name: "Startups & Ventures"
+    username: "@startupsi"
+    category: business
+    lang: en
+
+  - name: "AI Startups"
+    username: "@aistartups"
+    category: business
+    lang: en
+
+  - name: "AI Business"
+    username: "@aibusiness"
+    category: business
+    lang: en
+
+  - name: "AI Investment"
+    username: "@aiinvestment"
+    category: business
+    lang: en
+
+  - name: "Tech Founders"
+    username: "@techfounders"
+    category: business
+    lang: en
+
+  # === ROBOTICS & AUTOMATION (Робототехника) ===
+  - name: "Automation & Robotics"
+    username: "@automationRobotics"
+    category: robotics
+    lang: en
+
+  - name: "AI Robotics"
+    username: "@airobotics"
+    category: robotics
+    lang: en
+
+  - name: "Autonomous Systems"
+    username: "@autonomoussystems"
+    category: robotics
+    lang: en
+
+  - name: "Home AI"
+    username: "@HomeAI"
+    category: robotics
+    lang: en
+
+  - name: "Smart Home AI"
+    username: "@smarthomeai"
+    category: robotics
+    lang: en
+
+  # === SPECIALIZED (Специализированные) ===
+  - name: "Recommender Systems"
+    username: "@Recommender_System"
+    category: specialized
+    lang: en
+
+  - name: "AI Events"
+    username: "@AI_Events"
+    category: specialized
+    lang: en
+
+  - name: "AI Jobs"
+    username: "@aijobs"
+    category: specialized
+    lang: en
+
+  - name: "AI Courses"
+    username: "@aicourses"
+    category: specialized
+    lang: en
+
+  - name: "AI Healthcare"
+    username: "@aihealthcare"
+    category: specialized
+    lang: en
+
+  - name: "AI Finance"
+    username: "@aifinance"
+    category: specialized
+    lang: en
+
+  - name: "AI Gaming"
+    username: "@aigaming"
+    category: specialized
+    lang: en
+
+  - name: "AI Music"
+    username: "@aimusic"
+    category: specialized
+    lang: en
+
+  - name: "AI Video"
+    username: "@aivideotools"
+    category: specialized
+    lang: en
+
+  - name: "AI Agents"
+    username: "@aiagents"
+    category: specialized
+    lang: en
+
+# Stats: 100 channels total
+# Categories: news (10), expert (8), practical (10), datascience (10),
+#             deeplearning (8), nlp (8), cv (7), coding (8), research (8),
+#             business (6), robotics (5), specialized (10)
